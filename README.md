@@ -8,5 +8,5 @@ docker build -f shibboleth-idp.dockerfile -t <yourcompany>/shibboleth-idp:<desir
 
 To run it
 ```shell
-docker run -it -p 443:443 <yourcompany>/shibboleth-idp:<desiredversion>
+docker run -it -p 8443:8443 <yourcompany>/shibboleth-idp:<desiredversion>
 ```
