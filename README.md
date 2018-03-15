@@ -3,7 +3,7 @@ This repository contains a customized shibboleth-idp dockerfile to build a custo
 
 To build this, clone the repo and execute
 ```shell
-docker build -f shibboleth-idp.dockerfile -t <yourcompany>/shibboleth-idp:<desiredversion>
+docker build -f shibboleth-idp.dockerfile -t <yourcompany>/shibboleth-idp:<desiredversion> .
 ```
 
 To run it
